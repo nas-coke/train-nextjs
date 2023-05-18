@@ -36,9 +36,8 @@ export default function IndexPage() {
       >
 
         <div className="w-full mt-32 bg-white p-6 rounded-lg shadow">
-          <label for="first">Name:</label>
           <div>
-            <input type='text' className="bg-gray-300 border-gray-500 w-full p-2 rounded-lg mt-2" 
+            <input type='text' className="bg-gray-300 border-gray-500 w-full p-2 rounded-lg mt-2" placeholder='Your name'
             
             onChange={({target:{value}}) =>setName(value)}
             value={name}
@@ -48,6 +47,7 @@ export default function IndexPage() {
         </div>
         <div className="w-full mt-3 bg-white p-6 rounded-lg shadow">
           <textarea rows={10} className="outline-none w-full resize-none"
+          placeholder='Say something ...'
             value={inputValue}
             onChange={(event) => {
               const value = event.target.value;
