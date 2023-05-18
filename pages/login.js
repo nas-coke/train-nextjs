@@ -1,7 +1,7 @@
 export default function LoginPage() {
     return (
         <div className="h-full bg-gray-100 flex justify-center items-center">
-            <div className="bg-white shadow-2xl rounded-xl text-black p-4 w-1/2 ">
+            <div className="mt-44 bg-white shadow-2xl rounded-xl text-black p-4 w-1/2 ">
                 <div className="mb-4">
                     Email
                 </div>
